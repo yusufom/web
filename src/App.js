@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Support from "./components/Support";
 import AllinOne from "./components/AllinOne";
-import Pricing from "./components/Pricing";
+// import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <About />
       <Support />
       <AllinOne/>
-      <Pricing />
+      {/* <Pricing /> */}
       <Footer/>
     </>
   );
