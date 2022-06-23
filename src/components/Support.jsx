@@ -16,7 +16,7 @@ const Support = () => {
 
         <div className="max-w-[1240px] mx-auto text-white relative">
 
-            <div classname="px-4 py-12">
+            <div className="px-4 py-12">
                 <h3 className='text-5xl font-bold py-6 text-center'>Who We Are</h3>
                 <p className='py-4 text-3xl text-slate-300 text-center'>Oyedex Ventures is committed to achieving full customer satisfaction</p>
 
