@@ -5,7 +5,7 @@ import {
     PaperAirplaneIcon,
     ServerIcon,
 } from '@heroicons/react/solid'
-
+import { Link } from 'react-scroll'
 import bgImg from '../assets/panel.svg'
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
                 <h1 className='py-3 text-5xl md:text-7xl font-bold '>Oyedex Ventures Limited</h1>
                 <p className='text-2xl'>Solving problems, delivering
 excellence.</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+                <button className='py-3 px-6 sm:w-[60%] my-4'><Link  to="about"  smooth={true} offset={-200} duration={500}>Get Started</Link></button>
             </div>
 
             <div>
