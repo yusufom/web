@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col max-2-[1240px] mx-auto justify-between px-2 py-4 sm:flex-row text-center text-gray-500'>
-            <p className='py-4'>2022 workflow, LLC, Allrights reserved</p>
+            <p className='py-4'>2022 Oyedex Ventures, Allrights reserved</p>
             <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                 <FaFacebook/>
                 <FaTwitter/>

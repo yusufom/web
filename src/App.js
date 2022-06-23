@@ -2,8 +2,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Support from "./components/Support";
-import AllinOne from "./components/AllinOne";
-// import Pricing from "./components/Pricing";
+// import AllinOne from "./components/AllinOne";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Hero/>
       <About />
       <Support />
-      <AllinOne/>
-      {/* <Pricing /> */}
+      {/* <AllinOne/> */}
+      <Contact />
       <Footer/>
     </>
   );
